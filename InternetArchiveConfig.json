@@ -1,162 +1,162 @@
 {
-  "name": "Internet Archive",
-  "description": "Browse and play public audio and video from archive.org",
-  "author": "Wesley Swank",
-  "authorUrl": "https://github.com/swankwc",
-  "platformUrl": "https://archive.org",
-  "sourceUrl": "https://swankwc.github.io/grayjay-source-internet-archive/InternetArchiveConfig.json",
-  "repositoryUrl": "https://github.com/swankwc/grayjay-source-internet-archive",
-  "scriptUrl": "./InternetArchiveScript.js",
-  "version": 13,
-  "iconUrl": "https://archive.org/images/glogo.jpg",
-  "id": "8f3b3e58-2dc8-44c0-9f52-7d8a4fa7e9a1",
-  "scriptSignature": "cXEvowSwkO2ga3O/CcCojuFRTjxTvmdsLTfrCZ+zGhdlRbhOA0T3fkApHw6b9o/Bv9dxnNO49awn/F3T7/KXz9Km/hsmcg9jncs2pIaI0GejQNh9G2D8pE7/TmPj+AWhPMyIy87g9hGby2b1zshpPP+6xpRKdBUI6sh3HiM4H+0SnNIyOXIpHGIACakoEWPE4aAR0uFY9lVHO3InB88acwdPl8EmN8c6VYw5BmkaqYl3gnbqD4mqqB0yxeX2DcUWb9jWBgyzqLYzqUPsbUozlA59zZ9jOHCZZkOfZtX6JQn3oxAiefvbAE+hV/JyETMv+iroPml2UmdyWrFlfdTIvmKBQneVGYLys5LjyKMFH6X5YxsRZ6AJyt3h3j1qphgweYTKre5IDEryr9hQ8CvLv+JwFOghdmbVzZU1uRmI5qeJ8ROBFbadHJN/3UK/20CVSgFV8Ff2Jn4TUrA+XjwgD714x9bNAgiBJbo1jDYhxLhATtv/RPc7/7kDUhUXBHhosPC50ob1uBs5gaLD1+Dd3EiMxCWEwt4QF7d0pV1Cg3alNaNNpdR1UjO9Bh4bd1EB9IRl5UsqIMkrUjeYjXEBHiRRHlTO1wR6zAfKvUWnI/8kaTqPGcHcRnVPaxy0Plx3vSwHIQ+QmGYhNkAywk0gXZOQBbrHfwthyhFPLrt1tJw=",
-  "scriptPublicKey": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqr5c6qHXuU0t5FVYgvQquAIFmi+KJT1mwjuDRZO0uDNsLW1p5tA7ozFNLmSuKIX9h8Hr775ES7LsGSeGWxEt/q7MmqG1NcMZPyNeDlBiberMNxYV1I6xBh0p/p1AYEOwtgRney4wGIisKdhYX7CyaumPcWMb7kvD7+l2Uy7UpL5eDicwq3yu7KNC7mJHejPLxDt6L+JViJcaPU1vE2ynqN837j2AD1T1WnpytyFZ0cbehgi7rI971gzTnWMH1oP9QHnLwn/Be3cQztvHpRreg2jrcHRwhF5aQuTO8bsWbuWOYlsHI8wxX6e586muqLQ2IkagOy5NSercySytmBDBoPR7CM3m4f1tlRnyZ4VOOdkQOtisqmNVOcjuANpk/kj6kYv+ATmDPvzFy4Veu8IcvhRadWun7qcsgxZITymyXBLQnRIFLGDAb5HpefA6UdxNpuD6HBkXQ6j6UEK7j1PtQR/GGWhoi3DUm2WF0SiwwHzwc99zb7eDORPgkBagzQNpC7itmHuHbdK19RhFS3pKY7xiUTSoflo4+deYWoiiHOWCKRGC4btBl0ML5tT5aDt4lgdkF5WQHRe4rzGzo6Q4xo4pZh6QrEjc05Uxw9ROUrdv3F8peoka8uInARV0aYVNIiJ7u0LyBnX7M6VT6BBQHLx4bMwdkm4tEz/CaLlJFykCAwEAAQ==",
-  "packages": [
-    "Http"
-  ],
-  "allowEval": false,
-  "allowUrls": [
-    "archive.org",
-    "ia800207.us.archive.org",
-    "ia600207.us.archive.org",
-    "*.archive.org"
-  ],
-  "settings": [
-    {
-      "variable": "homeSortIndex",
-      "name": "Home Feed Sort",
-      "description": "How the Home feed should be ordered.",
-      "type": "Dropdown",
-      "default": "0",
-      "options": [
-        "Most downloaded",
-        "Recently added"
-      ]
+    "name": "Internet Archive",
+    "description": "Browse and play public audio and video from archive.org",
+    "author": "Wesley Swank",
+    "authorUrl": "https://github.com/swankwc",
+    "platformUrl": "https://archive.org",
+    "sourceUrl": "https://swankwc.github.io/grayjay-source-internet-archive/InternetArchiveConfig.json",
+    "repositoryUrl": "https://github.com/swankwc/grayjay-source-internet-archive",
+    "scriptUrl": "./InternetArchiveScript.js",
+    "version": 14,
+    "iconUrl": "https://archive.org/images/glogo.jpg",
+    "id": "8f3b3e58-2dc8-44c0-9f52-7d8a4fa7e9a1",
+    "scriptSignature": "gMG/EHcTGi0OQUqvQhhjDfglP03Prjd96t6AlYs6k48XjJ7sEc6b7HkKTjkdwL3kO/UsNCr2nJqSEPJds1xIEMHuZ0G/COPjNEQ/4XkoZwnq5U3ZBfm/qI1cz7IOkfAAR0ZsYL77XO3YX797xPO7WHxNzUAPVS+7oRJWuAAdPJGQQCaXpbemG6F9DC/5RnKBf+s7QyIUG+I8kKf85AVBnnUbVneGWxodM8C/WMjVukBDxY1F3bIbDp6fB+HfBlKccsIFVExtzzlYT1ZCez+gac+A/YCVvFhIm1CJxKlvTkddraRZSfULOHXaJxVc5+OIMj08dF6JzxizJsbY9Rhw6w==",
+    "scriptPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArAYUj4UK3AevnalaeVDi6ReEHZH5Xrp5z+qpqR3s7gXcYWFvAsYdLsa/0FzDIYOaQxmRPY0Ixh42zoX3YGSLX4rwHZeczCgiWL2fYG9JhcQxvaZvZxt5i0WXGwzmtW1AgN2hFc6jq0Vqicf67XqKXhNGsckNI309T87X2EeDajWFKKYxZ5VJnsxZzN4rUQVrKsQT225KPOBYGrPmy6Gd1lOnDCpmVF1GqJx88qfpZMVQyswSz9k0cupoI1IbrScJftdEabiJHWmkG8AIjy/bbpeRTQ+IgrTdhJWIkVDJGfdDR0TMIyn1gjOl+iVoQar1Os7bHr6l6DJ/AsQwTyEhGQIDAQAB",
+    "packages": [
+        "Http"
+    ],
+    "allowEval": false,
+    "allowUrls": [
+        "archive.org",
+        "ia800207.us.archive.org",
+        "ia600207.us.archive.org",
+        "*.archive.org"
+    ],
+    "settings": [
+        {
+            "variable": "homeSortIndex",
+            "name": "Home Feed Sort",
+            "description": "How the Home feed should be ordered.",
+            "type": "Dropdown",
+            "default": "0",
+            "options": [
+                "Most downloaded",
+                "Recently added"
+            ]
+        },
+        {
+            "variable": "homeMediaTypeIndex",
+            "name": "Home Feed Type",
+            "description": "Restrict the Home feed to audio, video, or both.",
+            "type": "Dropdown",
+            "default": "0",
+            "options": [
+                "Mixed audio and video",
+                "Video only",
+                "Audio only"
+            ]
+        },
+        {
+            "variable": "maxSourceCountIndex",
+            "name": "Max Playback Sources",
+            "description": "Limit how many candidate sources are exposed for each item.",
+            "type": "Dropdown",
+            "default": "1",
+            "options": [
+                "2",
+                "4",
+                "6",
+                "8"
+            ]
+        },
+        {
+            "variable": "strictFeedFilter",
+            "name": "Strict Feed Filter",
+            "description": "Hide low-signal items from home/search when they look less likely to contain playable media.",
+            "type": "Boolean",
+            "default": "false"
+        },
+        {
+            "variable": "verboseFailureDiagnostics",
+            "name": "Verbose Failure Diagnostics",
+            "description": "Log extra metadata and file candidates when an item cannot be played.",
+            "type": "Boolean",
+            "default": "false"
+        }
+    ],
+    "changelog": {
+        "1": [
+            "Initial MVP with home feed, search, collections as channels, item details, and direct playback."
+        ],
+        "2": [
+            "Improvement: Add home feed media-type setting;",
+            "Improvement: Add playback source count setting;",
+            "Improvement: Better media file filtering and ranking;",
+            "Improvement: Add HLS and DASH manifest support when available;",
+            "Fix: Reduce non-playable and duplicate file candidates in item details;"
+        ],
+        "3": [
+            "Improvement: Add strict feed filter setting to hide likely non-playable results;",
+            "Improvement: Add verbose failure diagnostics setting;",
+            "Improvement: Add broader fallback pass for playable source detection;",
+            "Fix: Improve no-playable-media errors with item identifiers and candidate file summaries;"
+        ],
+        "4": [
+            "Sign release metadata; add scriptSignature and scriptPublicKey."
+        ],
+        "5": [
+            "Improvement: Implement comments/reviews support;",
+            "Improvement: Add search suggestions;",
+            "Improvement: Add subtitle support (.srt, .vtt);",
+            "Improvement: Enhanced search capabilities with media type and 'Most Downloaded' filters;",
+            "Improvement: Include subject tags in item description."
+        ],
+        "6": [
+            "Improvement: Implement related content (More like this);",
+            "Improvement: Add 'Year' and 'Language' search filters;",
+            "Improvement: Persist filters and sorts across paginated results."
+        ],
+        "7": [
+            "Fix: Remove invalid script signatures to fix reinstallation issues;",
+            "Fix: Sanitize documentation to remove local IP addresses and private paths."
+        ],
+        "8": [
+            "Fix: Re-signed with 2048-bit RSA and cleaned up JSON formatting to resolve 'Invalid JSON Config' errors."
+        ],
+        "9": [
+            "Re-signed with 2048-bit RSA key; bump version to clear cached invalid state."
+        ],
+        "10": [
+            "Fix: re-sign with correct SHA-512 + dedicated grayjay_signing RSA key per official docs."
+        ],
+        "11": [
+            "Fix: search suggestions now use reliable fulltext query (consistent results)",
+            "Fix: year filter uses IA's dedicated year: field instead of date:",
+            "Fix: language filter now also applied in collection queries",
+            "Fix: language/year/subject added to search fields so they return in results",
+            "Fix: subtitles use SubtitleSource constructor per Grayjay API"
+        ],
+        "12": [
+            "Fix: Type.Feed.Video/Audio -> Type.Feed.Videos (correct Grayjay enum values)",
+            "Fix: Filters use FilterGroup/FilterCapability (predefined Language options)",
+            "Fix: Subtitle uses plain object per JSSubtitleSource.kt (no SubtitleSource class)",
+            "Fix: Comment uses date field (not timestamp) per JSComment.kt",
+            "Fix: Comment rating uses RatingScaler (not Rating which does not exist)",
+            "Fix: Filter values read as Array per Map<string,Array<string>> contract"
+        ],
+        "13": [
+            "Fix: use VideoSourceDescriptor for muxed video-only files (mp4/avi with embedded audio)",
+            "Fix: use VideoSourceDescriptor for audio-only items (mp3/ogg/flac)",
+            "Fix: only use UnMuxVideoSourceDescriptor when BOTH separate video and audio tracks exist",
+            "This resolves near-universal playback failure - wrong descriptor caused silent/broken playback"
+        ]
     },
-    {
-      "variable": "homeMediaTypeIndex",
-      "name": "Home Feed Type",
-      "description": "Restrict the Home feed to audio, video, or both.",
-      "type": "Dropdown",
-      "default": "0",
-      "options": [
-        "Mixed audio and video",
-        "Video only",
-        "Audio only"
-      ]
-    },
-    {
-      "variable": "maxSourceCountIndex",
-      "name": "Max Playback Sources",
-      "description": "Limit how many candidate sources are exposed for each item.",
-      "type": "Dropdown",
-      "default": "1",
-      "options": [
-        "2",
-        "4",
-        "6",
-        "8"
-      ]
-    },
-    {
-      "variable": "strictFeedFilter",
-      "name": "Strict Feed Filter",
-      "description": "Hide low-signal items from home/search when they look less likely to contain playable media.",
-      "type": "Boolean",
-      "default": "false"
-    },
-    {
-      "variable": "verboseFailureDiagnostics",
-      "name": "Verbose Failure Diagnostics",
-      "description": "Log extra metadata and file candidates when an item cannot be played.",
-      "type": "Boolean",
-      "default": "false"
+    "Testing": {
+        "Search": {
+            "queries": [
+                "big buck bunny",
+                "public domain jazz"
+            ]
+        },
+        "GetContentDetails": {
+            "urls": [
+                "https://archive.org/details/BigBuckBunny_124"
+            ]
+        },
+        "GetChannel": {
+            "urls": [
+                "https://archive.org/details/opensource_movies#collection"
+            ]
+        }
     }
-  ],
-  "changelog": {
-    "1": [
-      "Initial MVP with home feed, search, collections as channels, item details, and direct playback."
-    ],
-    "2": [
-      "Improvement: Add home feed media-type setting;",
-      "Improvement: Add playback source count setting;",
-      "Improvement: Better media file filtering and ranking;",
-      "Improvement: Add HLS and DASH manifest support when available;",
-      "Fix: Reduce non-playable and duplicate file candidates in item details;"
-    ],
-    "3": [
-      "Improvement: Add strict feed filter setting to hide likely non-playable results;",
-      "Improvement: Add verbose failure diagnostics setting;",
-      "Improvement: Add broader fallback pass for playable source detection;",
-      "Fix: Improve no-playable-media errors with item identifiers and candidate file summaries;"
-    ],
-    "4": [
-      "Sign release metadata; add scriptSignature and scriptPublicKey."
-    ],
-    "5": [
-      "Improvement: Implement comments/reviews support;",
-      "Improvement: Add search suggestions;",
-      "Improvement: Add subtitle support (.srt, .vtt);",
-      "Improvement: Enhanced search capabilities with media type and 'Most Downloaded' filters;",
-      "Improvement: Include subject tags in item description."
-    ],
-    "6": [
-      "Improvement: Implement related content (More like this);",
-      "Improvement: Add 'Year' and 'Language' search filters;",
-      "Improvement: Persist filters and sorts across paginated results."
-    ],
-    "7": [
-      "Fix: Remove invalid script signatures to fix reinstallation issues;",
-      "Fix: Sanitize documentation to remove local IP addresses and private paths."
-    ],
-    "8": [
-      "Fix: Re-signed with 2048-bit RSA and cleaned up JSON formatting to resolve 'Invalid JSON Config' errors."
-    ],
-    "9": [
-      "Re-signed with 2048-bit RSA key; bump version to clear cached invalid state."
-    ],
-    "10": [
-      "Fix: re-sign with correct SHA-512 + dedicated grayjay_signing RSA key per official docs."
-    ],
-    "11": [
-      "Fix: search suggestions now use reliable fulltext query (consistent results)",
-      "Fix: year filter uses IA's dedicated year: field instead of date:",
-      "Fix: language filter now also applied in collection queries",
-      "Fix: language/year/subject added to search fields so they return in results",
-      "Fix: subtitles use SubtitleSource constructor per Grayjay API"
-    ],
-    "12": [
-      "Fix: Type.Feed.Video/Audio -> Type.Feed.Videos (correct Grayjay enum values)",
-      "Fix: Filters use FilterGroup/FilterCapability (predefined Language options)",
-      "Fix: Subtitle uses plain object per JSSubtitleSource.kt (no SubtitleSource class)",
-      "Fix: Comment uses date field (not timestamp) per JSComment.kt",
-      "Fix: Comment rating uses RatingScaler (not Rating which does not exist)",
-      "Fix: Filter values read as Array per Map<string,Array<string>> contract"
-    ],
-    "13": [
-      "Fix: use VideoSourceDescriptor for muxed video-only files (mp4/avi with embedded audio)",
-      "Fix: use VideoSourceDescriptor for audio-only items (mp3/ogg/flac)",
-      "Fix: only use UnMuxVideoSourceDescriptor when BOTH separate video and audio tracks exist",
-      "This resolves near-universal playback failure - wrong descriptor caused silent/broken playback"
-    ]
-  },
-  "Testing": {
-    "Search": {
-      "queries": [
-        "big buck bunny",
-        "public domain jazz"
-      ]
-    },
-    "GetContentDetails": {
-      "urls": [
-        "https://archive.org/details/BigBuckBunny_124"
-      ]
-    },
-    "GetChannel": {
-      "urls": [
-        "https://archive.org/details/opensource_movies#collection"
-      ]
-    }
-  }
 }
